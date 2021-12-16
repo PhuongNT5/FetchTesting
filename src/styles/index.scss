@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Hellix, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+@font-face {
+  font-family: 'Hellix';
+  src: local('Hellix Light'), local('Hellix-Light'),
+      url('./fonts/Hellix-Light.woff2') format('woff2'),
+      url('./fonts/Hellix-Light.woff') format('woff'),
+      url('./fonts/Hellix-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hellix';
+  src: local('Hellix Regular'), local('Hellix-Regular'),
+      url('./fonts/Hellix-Regular.woff2') format('woff2'),
+      url('./fonts/Hellix-Regular.woff') format('woff'),
+      url('./fonts/Hellix-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hellix';
+  src: local('Hellix Bold'), local('Hellix-Bold'),
+      url('./fonts/Hellix-Bold.woff2') format('woff2'),
+      url('./fonts/Hellix-Bold.woff') format('woff'),
+      url('./fonts/Hellix-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+code {
+  font-family: Hellix, sans-serif;
+}
